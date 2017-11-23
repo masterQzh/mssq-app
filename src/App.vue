@@ -1,14 +1,16 @@
 <template>
   <div id="app">
-    <header-bar ></header-bar>
+    <login-page></login-page>
+    <!--<header-bar ></header-bar>-->
     <!--<main-section></main-section>-->
     <!--<aside-bar></aside-bar>-->
     <!--<router-view/>-->
-    <main-content></main-content>
+    <!--<main-content></main-content>-->
   </div>
 </template>
 
 <script>
+  import loginPage from  '@/components/login/loginPage'
   import headerBar from '@/components/headerBar'
 //  import mainSection from '@/components/mainSection'
 //  import test from '@/components/test'
@@ -18,6 +20,7 @@
     name: 'app',
     components: {
       "headerBar": headerBar,
+      "loginPage": loginPage,
 //      "mainSection": mainSection,
 //      "test": test
       "mainContent": mainContent
