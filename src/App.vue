@@ -2,10 +2,13 @@
   <div id="app">
     <login-page></login-page>
     <!--<header-bar ></header-bar>-->
+    <!--<main-content></main-content>-->
     <!--<main-section></main-section>-->
     <!--<aside-bar></aside-bar>-->
-    <!--<router-view/>-->
-    <!--<main-content></main-content>-->
+
+      <!--<router-view></router-view>-->
+
+
   </div>
 </template>
 
